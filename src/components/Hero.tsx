@@ -15,7 +15,7 @@ const Hero = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <p className="text-sm font-medium tracking-[0.3em] uppercase text-primary mb-6">
-            AI Automation Agency
+            Results-Driven Automation
           </p>
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold leading-[0.95] mb-8">
             Save Time.
@@ -23,8 +23,8 @@ const Hero = () => {
             <span className="text-gradient">Make Money.</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed">
-            We build intelligent AI systems that automate your workflows,
-            eliminate busywork, and unlock new revenue — so you can focus on growth.
+            We don't sell AI — we deliver results. Smarter systems that
+            eliminate busywork, capture more revenue, and let you focus on what actually grows your business.
           </p>
         </motion.div>
 
