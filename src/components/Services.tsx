@@ -44,12 +44,12 @@ const Services = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <p className="text-sm font-medium tracking-[0.3em] uppercase text-primary mb-4">What We Do</p>
+          <p className="text-sm font-medium tracking-[0.3em] uppercase text-primary mb-4">What We Deliver</p>
           <h2 className="text-4xl md:text-5xl font-display font-bold mb-6">
-            Solutions That <span className="text-gradient">Drive Results</span>
+            Outcomes, Not <span className="text-gradient">Just Technology</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            From automation to custom AI tools, we deliver systems that save you time and generate revenue.
+            We don't sell AI for the sake of it. Every solution is built around a clear business outcome — saving time, cutting costs, or driving revenue.
           </p>
         </motion.div>
 
