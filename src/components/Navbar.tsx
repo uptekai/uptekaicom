@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border">
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-3">
-          <img src={logo} alt="UpTek AI" className="h-14 w-14 rounded-lg" />
+          <img src={logo} alt="UpTek AI" className="h-20 w-20 rounded-lg" />
           <span className="font-display text-xl font-bold text-gradient">UPTEK AI</span>
         </Link>
 
