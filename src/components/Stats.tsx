@@ -14,6 +14,12 @@ const stats = [
       "Automated follow-up systems mean leads are contacted instantly — before they go cold or find a competitor.",
   },
   {
+    value: "24/7",
+    label: "Always On, Never Off",
+    description:
+      "Our systems run around the clock — no breaks, no downtime, no days off. Full speed, every second of every day.",
+  },
+  {
     value: "100%",
     label: "Custom Built For You",
     description:
