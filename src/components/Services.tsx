@@ -49,7 +49,7 @@ const Services = () => {
             Outcomes, Not <span className="text-gradient">Just Technology</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            We don't sell AI for the sake of it. Every solution is built around a clear business outcome — saving time, cutting costs, or driving revenue.
+            We don't sell AI for the sake of it. Every solution is built around a clear business outcome — saving time, cutting costs, and driving revenue.
           </p>
         </motion.div>
 
