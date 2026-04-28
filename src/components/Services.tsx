@@ -30,7 +30,7 @@ const services = [
   {
     icon: Cog,
     title: "Custom AI Tools",
-    description: "Bespoke AI solutions tailored to your unique business needs and objectives.",
+    description: "With 50+ AI systems in our toolkit, it's not a question of capability — it's about finding the right combination that fits your business best.",
   },
 ];
 
