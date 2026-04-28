@@ -13,6 +13,11 @@ const faqs = [
       "We're a results-based business focused on solving your specific pain points. You tell us what's slowing you down — whether it's missed leads, manual admin, slow response times, or anything else — and we design the systems to fix it. Every solution we build is tailored to one outcome: saving you time and making you money.",
   },
   {
+    question: "What are some of the pain points you solve?",
+    answer:
+      "We handle most of our clients' pain points in one or more of these categories: Revenue & Growth, Bookings & Scheduling, Follow-Up & Retention, Reputation & Reviews, Operations & Admin, Sales Pipeline, Client Experience, Finance & Cash Flow, Hiring & HR, Content & Marketing, Data & Reporting, Partnerships & B2B, and Building an Online Presence. If your challenge fits anywhere in there — chances are, we've already built a system for it.",
+  },
+  {
     question: "How quickly can we see results?",
     answer:
       "Most clients see measurable improvements within the first 2–4 weeks of implementation. We prioritize quick wins that deliver immediate ROI while building toward long-term systems that compound results over time.",
