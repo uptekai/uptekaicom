@@ -8,6 +8,11 @@ import {
 
 const faqs = [
   {
+    question: "What exactly can you do for me?",
+    answer:
+      "We're a results-based business focused on solving your specific pain points. You tell us what's slowing you down — whether it's missed leads, manual admin, slow response times, or anything else — and we design the systems to fix it. Every solution we build is tailored to one outcome: saving you time and making you money.",
+  },
+  {
     question: "How quickly can we see results?",
     answer:
       "Most clients see measurable improvements within the first 2–4 weeks of implementation. We prioritize quick wins that deliver immediate ROI while building toward long-term systems that compound results over time.",
