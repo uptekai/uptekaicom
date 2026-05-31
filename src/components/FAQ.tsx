@@ -18,6 +18,11 @@ const faqs = [
       "We handle most of our clients' pain points in one or more of these categories: Revenue & Growth, Bookings & Scheduling, Follow-Up & Retention, Reputation & Reviews, Operations & Admin, Sales Pipeline, Client Experience, Finance & Cash Flow, Hiring & HR, Content & Marketing, Data & Reporting, Partnerships & B2B, and Building an Online Presence. If your challenge fits anywhere in there — chances are, we've already built a system for it.",
   },
   {
+    question: "So what exactly are some examples?",
+    answer:
+      "Here's a small taste of what we've built for clients: AI receptionists that answer calls and book appointments 24/7, automated lead follow-up sequences that re-engage cold prospects, review-generation systems that turn happy customers into 5-star reviews on autopilot, smart scheduling assistants that eliminate back-and-forth emails, custom dashboards that pull all your business data into one place, AI-powered content engines, automated invoicing and payment reminders, and full website builds with conversion systems baked in. These are just a handful of examples — we have 50+ systems in our toolkit, and most projects are a custom mix tailored to your business. If you don't see your exact need here, that doesn't mean we can't help — it usually means we can.",
+  },
+  {
     question: "How quickly can we see results?",
     answer:
       "Most clients see measurable improvements within the first 2–4 weeks of implementation. We prioritize quick wins that deliver immediate ROI while building toward long-term systems that compound results over time.",
