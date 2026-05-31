@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Link } from "react-router-dom";
@@ -6,8 +7,22 @@ import { ArrowLeft } from "lucide-react";
 const Terms = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
+      <Helmet>
+        <title>Terms of Service — UpTek AI</title>
+        <meta
+          name="description"
+          content="Read the UpTek AI Terms of Service: the terms governing use of our website, consultations, and automation services."
+        />
+        <link rel="canonical" href="https://uptekai.com/terms" />
+        <meta property="og:title" content="Terms of Service — UpTek AI" />
+        <meta
+          property="og:description"
+          content="Terms governing use of UpTek AI services and website."
+        />
+        <meta property="og:url" content="https://uptekai.com/terms" />
+      </Helmet>
       <Navbar />
-      <div className="container mx-auto px-6 pt-32 pb-20 max-w-3xl">
+      <main className="container mx-auto px-6 pt-32 pb-20 max-w-3xl">
         <Link to="/" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors mb-8">
           <ArrowLeft size={16} /> Back to Home
         </Link>
@@ -139,7 +154,7 @@ const Terms = () => {
             </p>
           </div>
         </div>
-      </div>
+      </main>
       <Footer />
     </div>
   );
