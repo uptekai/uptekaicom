@@ -19,8 +19,48 @@ const faqs = [
   },
   {
     question: "So what exactly are some examples?",
-    answer:
-      "These are just a handful of the 50+ systems we have in our toolkit — most projects end up being a custom mix tailored to your exact needs. Some of our most popular builds include:\n\n• Custom website builds & complete website revamps\n• AI receptionists that handle calls & bookings 24/7\n• Missed call text-back systems\n• SMS automation — confirmations, reminders, and Google review requests\n• Interactive chatbots for websites and platforms\n• Reactivation pieces linked directly to your database\n• Activation pieces tied to social media and website activity\n• AI-powered content engines\n• Speed-to-lead agents that respond in seconds\n• Custom booking platforms and CRMs\n• SEO optimization & Google Business Profile optimization\n• Email and SMS promotion & specials campaigns\n• Autonomous invoicing and email response systems\n• Autonomous client feedback templates\n• And much, much more\n\nIf you don't see your exact need listed, that doesn't mean we can't build it — it usually means we already have.",
+    intro:
+      "Just a handful of the 50+ systems in our toolkit — most projects end up being a custom mix tailored to your business.",
+    groups: [
+      {
+        title: "Web & Online Presence",
+        items: [
+          "Custom website builds & full revamps",
+          "SEO & Google Business Profile optimization",
+        ],
+      },
+      {
+        title: "Calls, Chat & Lead Capture",
+        items: [
+          "AI receptionists (24/7 calls & bookings)",
+          "Missed call text-back systems",
+          "Interactive chatbots",
+          "Speed-to-lead agents",
+        ],
+      },
+      {
+        title: "Automation & Outreach",
+        items: [
+          "SMS confirmations, reminders & Google review requests",
+          "Email & SMS promotions and specials campaigns",
+          "Database reactivation pieces",
+          "Activation pieces tied to social & website activity",
+        ],
+      },
+      {
+        title: "Sales & Back Office",
+        items: [
+          "Custom booking platforms & CRMs",
+          "AI proposal generators",
+          "AI estimate generators",
+          "Autonomous invoicing & email response",
+          "Autonomous client feedback templates",
+          "AI-powered content engines",
+        ],
+      },
+    ],
+    outro:
+      "Don't see your exact need? That usually means we've already built it.",
   },
   {
     question: "How quickly can we see results?",
