@@ -131,7 +131,36 @@ const FAQ = () => {
                   {faq.question}
                 </AccordionTrigger>
                 <AccordionContent className="text-muted-foreground leading-relaxed pb-5">
-                  {faq.answer}
+                  {"groups" in faq && faq.groups ? (
+                    <div className="space-y-5">
+                      {faq.intro && <p>{faq.intro}</p>}
+                      <div className="grid sm:grid-cols-2 gap-4">
+                        {faq.groups.map((group) => (
+                          <div
+                            key={group.title}
+                            className="bg-background/40 border border-border/60 rounded-lg p-4"
+                          >
+                            <p className="font-display font-semibold text-foreground text-sm mb-2">
+                              {group.title}
+                            </p>
+                            <ul className="space-y-1.5 text-sm">
+                              {group.items.map((item) => (
+                                <li key={item} className="flex gap-2">
+                                  <span className="text-primary mt-1 shrink-0">•</span>
+                                  <span>{item}</span>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        ))}
+                      </div>
+                      {faq.outro && (
+                        <p className="text-sm italic">{faq.outro}</p>
+                      )}
+                    </div>
+                  ) : (
+                    faq.answer
+                  )}
                 </AccordionContent>
               </AccordionItem>
             ))}
