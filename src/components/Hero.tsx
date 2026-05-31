@@ -18,6 +18,7 @@ const Hero = () => {
             Results-Driven Automation
           </p>
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold leading-[0.95] mb-8">
+            <span className="sr-only">UpTek AI — Results-Driven AI Automation: </span>
             Save Time.
             <br />
             <span className="text-gradient">Make Money.</span>
@@ -46,7 +47,7 @@ const Hero = () => {
             href="#services"
             className="border border-border text-foreground px-8 py-4 rounded-lg text-base font-semibold hover:bg-muted transition-colors inline-flex items-center justify-center"
           >
-            Learn More
+            Explore AI Services
           </a>
         </motion.div>
       </div>
