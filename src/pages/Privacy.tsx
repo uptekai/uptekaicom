@@ -161,7 +161,7 @@ const Privacy = () => {
             <p className="text-muted-foreground mt-3">We will respond to all privacy-related inquiries within 5 business days.</p>
           </div>
         </div>
-      </div>
+      </main>
       <Footer />
     </div>
   );
