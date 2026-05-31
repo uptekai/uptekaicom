@@ -42,7 +42,7 @@ const About = () => {
             {values.map((v, i) => (
               <div key={v.label} className="bg-card border border-border rounded-xl p-6">
                 <v.icon className="text-primary mb-3" size={28} />
-                <h4 className="font-display font-semibold mb-2">{v.label}</h4>
+                <h3 className="font-display font-semibold mb-2">{v.label}</h3>
                 <p className="text-sm text-muted-foreground">{v.desc}</p>
               </div>
             ))}

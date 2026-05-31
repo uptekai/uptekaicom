@@ -1,0 +1,15 @@
+# UpTek AI
+
+> UpTek AI builds results-driven AI automation systems that save businesses time and unlock new revenue — from AI receptionists and missed-call text-back to custom CRMs, SEO, and autonomous back-office workflows.
+
+UpTek AI is a hands-on automation studio. We don't sell AI hype — we deliver measurable outcomes: faster lead response, recovered missed calls, automated follow-ups, reactivated databases, and streamlined operations. Every engagement starts with a free consultation and is scoped to the client's specific pain points.
+
+## Pages
+
+- [Home](/): Overview of UpTek AI, services, results, FAQ, and how to book a free consultation.
+- [Privacy Policy](/privacy): How UpTek AI collects, uses, and protects personal information.
+- [Terms of Service](/terms): Terms governing use of UpTek AI services and website.
+
+## Optional
+
+- [Book a free consultation](https://calendly.com/alex-uptekai/free-consultation-uptek-ai): Primary contact path.

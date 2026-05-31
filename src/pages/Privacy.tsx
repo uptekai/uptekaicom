@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Link } from "react-router-dom";
@@ -6,8 +7,22 @@ import { ArrowLeft } from "lucide-react";
 const Privacy = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
+      <Helmet>
+        <title>Privacy Policy — UpTek AI</title>
+        <meta
+          name="description"
+          content="Read the UpTek AI Privacy Policy: how we collect, use, store, and protect your personal information when you visit uptekai.com or engage our services."
+        />
+        <link rel="canonical" href="https://uptekai.com/privacy" />
+        <meta property="og:title" content="Privacy Policy — UpTek AI" />
+        <meta
+          property="og:description"
+          content="How UpTek AI collects, uses, and protects personal information."
+        />
+        <meta property="og:url" content="https://uptekai.com/privacy" />
+      </Helmet>
       <Navbar />
-      <div className="container mx-auto px-6 pt-32 pb-20 max-w-3xl">
+      <main className="container mx-auto px-6 pt-32 pb-20 max-w-3xl">
         <Link to="/" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors mb-8">
           <ArrowLeft size={16} /> Back to Home
         </Link>
@@ -146,7 +161,7 @@ const Privacy = () => {
             <p className="text-muted-foreground mt-3">We will respond to all privacy-related inquiries within 5 business days.</p>
           </div>
         </div>
-      </div>
+      </main>
       <Footer />
     </div>
   );
