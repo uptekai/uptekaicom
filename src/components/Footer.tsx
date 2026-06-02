@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-12">
           <div>
             <Link to="/" className="flex items-center gap-3 mb-4">
-              <img src={logo} alt="UpTek AI" className="h-10 w-10 rounded-lg" />
+              <img src={logo} alt="UpTek AI" width={40} height={40} className="h-10 w-10 rounded-lg object-contain" />
               <span className="font-display text-xl font-bold text-gradient">UPTEK AI</span>
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed">
