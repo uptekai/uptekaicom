@@ -90,6 +90,16 @@ const Index = () => {
         />
         <link rel="canonical" href="https://uptekai.com/" />
         <meta property="og:url" content="https://uptekai.com/" />
+        <meta property="og:title" content="UpTek AI — Results-Driven AI Automation" />
+        <meta
+          property="og:description"
+          content="UpTek AI builds intelligent AI automation systems that streamline operations, eliminate busywork, and unlock new revenue for your business."
+        />
+        <meta name="twitter:title" content="UpTek AI — Results-Driven AI Automation" />
+        <meta
+          name="twitter:description"
+          content="UpTek AI builds intelligent AI automation systems that streamline operations, eliminate busywork, and unlock new revenue for your business."
+        />
         <script type="application/ld+json">{JSON.stringify(faqJsonLd)}</script>
       </Helmet>
       <Navbar />
